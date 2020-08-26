@@ -1,0 +1,5 @@
+pip install zeep
+pip install opencv-python
+pip install geocoder
+pip install pyqt5==5.13.2
+pip install texttable
