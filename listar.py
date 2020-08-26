@@ -12,7 +12,7 @@ class Ui_Listar(object):
         #GETTIN WSDL REFERENCE
         self.client = client;
 
-        MainWindow.resize(500, 269)
+        MainWindow.resize(600, 269)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.txtUsuario = QtWidgets.QLineEdit(self.centralwidget)
@@ -28,7 +28,7 @@ class Ui_Listar(object):
         self.btnConsultar.setGeometry(QtCore.QRect(270, 20, 75, 23))
         self.btnConsultar.setObjectName("btnConsultar")
         self.plainTextEdit = QtWidgets.QPlainTextEdit(self.centralwidget)
-        self.plainTextEdit.setGeometry(QtCore.QRect(10, 60, 480, 171))
+        self.plainTextEdit.setGeometry(QtCore.QRect(10, 60, 580, 171))
         font = QtGui.QFont()
         font.setFamily("Consolas")
         self.plainTextEdit.setFont(font)
